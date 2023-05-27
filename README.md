@@ -18,3 +18,6 @@
 6. we have a button on the nav bar as well which takes us to favorite page, here we will be having all those items which are marked as favorite. This includes the dish car similar to home page and has the option to remove the dish from favorite list.
 7. We can navigate to Info page from here as well.
 8. Our Info page will be having a container which includes the image of the dish and instructions to cook it. We have two buttons either to navigate to home page or to favorite page from here as well. 
+
+## Project Link:
+https://afredhussain-t.github.io/Delicious/index.html
