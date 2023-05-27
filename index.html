@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious</title>
+    <link rel="stylesheet" href="indexStyle.css" />
+
+</head>
+
+<body>
+    <div id="main-container">
+        <div class="Navbar" id="nav-bar">   <!--Styling the nav bar-->
+            <div id="logo">
+                <h1>Delicious</h1>
+            </div>
+            <div class="Input">
+                <input type="text" placeholder="Enter the item..." id="input-bar" />    <!--search bar-->
+                <button id="search-btn" class="Search">Search</button>  <!--search button-->
+            </div>
+
+            <div id="Favourite">
+                <h3><a href="./pages/favourite.html">Favourite</a></h3>
+            </div>
+        </div>
+
+        <section>   <!--dishes container-->
+            <div id="searchResult">
+                <!-- <div class="dish-card", id="idMeal">
+                <img class="poster" src=${strMealThumb} alt="">
+                <div class="card-body">
+                <a href=${path}> ${strMeal} </a>
+                <input type="button" value=${favorite} id=${idMeal} data-dish='{"idMeal": "${idMeal}", "strMeal": "${strMeal}", "strMealThumb": "${strMealThumb}"}' onclick="updateFavorite(this)"/>
+                </div>
+              </div> -->
+            </div>
+        </section>
+
+    </div>
+    <script src="./JS/Home.js"></script>    <!--All the scripts for home page, fav page and info page-->
+    <script src="./JS/fav.js"></script>
+    <script src="./JS/info.js"></script>
+</body>
+
+</html>
